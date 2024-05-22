@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --dark: #d9b99b;
+    --light: #faf0e6;
+}
+
+body{
+    font-family: 'Caveat';
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+nav , footer {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+nav a , footer a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* .dbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.nav{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+section {
+    padding: 100px 60px;
+}
+
+section .img {
+    width: 200px; 
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid var(--light);
+    box-shadow: 5px 5px 10px 2px var(--dark);
+}
+
+.d {
+    display: flex;
+
+}
+
+.user {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 2px var(--dark);
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px 2px var(--dark);
+}
+
+p {
+    font-size: 1em;
+    margin-top: 3em;
+}
+
+section .about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px; 
+    height: 250px; 
+    margin: auto;
+}
+
+section .accordion .accordion-item .accordion-header, 
+section .accordion .accordion-item .accordion-collapse {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.accordion {
+    --bs-accordion-active-bg: var(--light);
+}
+
+.accordion-item {
+    background-color: var(--dark);
+}
+
+.accordion-button:focus {
+    border-color: var(--dark);
+}
+
+form {
+    width: 50%;
+    margin: 50px auto;
+    background-color: var(--light);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 2px var(--dark);
+}
+
+fieldset {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+input, select {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+textarea {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.input {
+    width: 100%;
+}
+
+.submit {
+    color: var(--dark);
+    font-family: 'Caveat';
+    transition: 0.8ms;
+}
+
+.submit:hover {
+    transition: 0.8ms;
+    background: var(--dark);
+    color: var(--light);
+}
+
+.footer{
+    display: flex;
+}
